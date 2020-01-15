@@ -1,0 +1,96 @@
+.exchange .exchange-name {
+    border-left: 2px solid;
+}
+
+#marketsContainer {
+    position: relative;
+}
+
+.animation-top {
+    -webkit-transition-property: top;
+    transition-property: top;
+}
+
+.animation-duration-1 {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.animation-delay-1 {
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+#namesOfMarkets {
+    font-size: 15px;
+}
+
+#namesOfMarkets>span {
+    padding: 0 5px;
+    color: grey;
+    cursor: pointer;
+}
+
+#namesOfMarkets>span.active {
+    color: white;
+    text-shadow: 1px 1px 1px green;
+}
+
+#listOfMarkets .currency_coin {
+    cursor: pointer;
+}
+
+#listOfMarkets .currency_coin:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px green;
+}
+.dataTables_scrollBody {
+    max-height: 500px;
+}
+.site-24hr-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.site-24hr-info > div:first-child {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.site-24hr-info > div:first-child > div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+    border-right: 1px solid;
+}
+.site-24hr-info > div:first-child > div:last-child {
+    border-right: none;
+}
+.site-24hr-info > div:last-child {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.site-24hr-info > div:last-child > div {
+    padding: 0 5px;
+}
+.site-24hr-info .number {
+    font-weight: bold;
+}
+.card.card-form .last-price, .card.card-form .lowest-ask, .card.card-form .highest-bid {
+    cursor: pointer;
+    color: white;
+    opacity: 0.8;
+    /* text-decoration: underline white; */
+}
+.card.card-form .last-price:hover, .card.card-form .lowest-ask:hover, .card.card-form .highest-bid:hover {
+    opacity: 1;
+}

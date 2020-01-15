@@ -1,0 +1,30 @@
+body {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-body {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-link {
+    text-shadow: 1px 1px 1px black;
+}
+.home-footer {
+    background-color: #00000099;
+}
+
+.home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app .app-content {
+    min-height: calc(100% - 230px);
+}
