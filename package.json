@@ -29,7 +29,7 @@
     "hideshowpassword": "^2.1.1",
     "lodash-arithmetic": "^1.0.0",
     "password-strength-meter": "^1.2.1",
-    "prismjs": "^1.6.0",
+    "prismjs": "^1.23.0",
     "pusher-js": "^4.2.2"
   }
 }
